@@ -7,6 +7,9 @@
           <mappings>
             <mapping deploy="/web" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath path="/web/wp-content/uploads" />
+          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>
